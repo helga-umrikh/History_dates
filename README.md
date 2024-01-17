@@ -3,7 +3,7 @@
 This document will provide you with an overview of the app and guide you through the process of setting it up and starting it.
 
 **About the App** 
-My app is an interface for SPA application. The app consists of one pages: the History page which displays an infographic about historical events. This page has slider with events related to speciefic period and animated spin with topics.
+The app consists of one pages: the History page which displays an infographic about historical events. This page has slider with events related to speciefic period and animated spin with topics.
 
 The app is built using React, TypeScript and styled using SCSS.
 Libraries used for this project: styled-components, swiper, gsap
