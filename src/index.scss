@@ -60,3 +60,17 @@ body {
 ._button:active {
   transform: scale(0.9);
 }
+
+._text {
+  color: $black-blue;
+  font-family: $pt-sans;
+  font-style: normal;
+  font-weight: $regular;
+}
+
+._title {
+  color: $black-blue;
+  font-family: $pt-sans;
+  font-style: normal;
+  font-weight: $bold;
+}

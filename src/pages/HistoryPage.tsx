@@ -27,7 +27,7 @@ const HistoryPage = () => {
             <div className="container">
                 <h1 className="history__title _title">Исторические даты</h1>
                 <div className="history__episode-switchers">
-                    <p className="episode-switchers__table">
+                    <p className="episode-switchers__table _text">
                         {`06/0${episode + 1}`}
                     </p>
                     <div className="episode-switchers__buttons">

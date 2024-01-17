@@ -49,6 +49,11 @@
         font-size: 56px;
         line-height: 120%;
         max-width: 8em;
+        margin-bottom: 7em;
+    }
+
+    &__episode-switchers {
+        margin-bottom: 3.5em;
     }
 }
 
@@ -57,24 +62,21 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     z-index: 2;
 }
 
-._title {
-    color: $black-blue;
-    font-family: $pt-sans;
-    font-style: normal;
-    font-weight: $bold;
-}
 
 .episode-switchers {
-    &__next-button svg{
-        // width: 100%;
+    &__table {
+        font-size: 14px;
+        line-height: normal;
+        margin-bottom: 1.25em;
     }
 
-    &__prev-button svg{
-        // width: 100%;
-        // justify-content: center;
+    &__buttons {
+        max-width: 7.5em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

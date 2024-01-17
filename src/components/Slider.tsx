@@ -35,7 +35,7 @@ const Slider: React.FC<SliderProps> = ({ dataItem }) => {
                 {dataItem.dates.map((e, index) => (
                     <SwiperSlide key={index}>
                         <p className="slide__title _slide-year">{e.year}</p>
-                        <p className="slide__description _slide-text">
+                        <p className="slide__description _slide-text _text">
                             {e.description}
                         </p>
                     </SwiperSlide>
