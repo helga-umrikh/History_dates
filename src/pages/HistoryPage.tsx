@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './HistoryPage.scss'
 import Slider from '../components/Slider'
 import data from '../data'
+import TimeSpinner from '../components/TimeSpinner/TimeSpinner'
 
 const HistoryPage = () => {
     const [episode, setEpisode] = useState(0)
@@ -70,6 +71,10 @@ const HistoryPage = () => {
                 </div>
                 <Slider dataItem={data[episode]} />
             </div>
+            <div className='history__time'>
+                <TimeSpinner spinnerItem={data[episode]} index={episode}/>
+            </div>
+
             <div className="history__cover">
                 <svg
                     className="history__separator"
